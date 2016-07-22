@@ -65,3 +65,6 @@ $file_line_count = 1;
 	</p>
 </body>
 </html>
+<?php
+fclose($file);
+?>
