@@ -67,4 +67,5 @@ $file_line_count = 1;
 </html>
 <?php
 fclose($file);
+fclose($file_line_data);
 ?>
