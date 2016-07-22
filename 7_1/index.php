@@ -58,7 +58,6 @@ $file_line_count = 1;
 			{
 				echo "Error: unexpected fgets() fail\n";
 			}
-			fclose($file);
 		}
 		?>
 		======================================<br>
