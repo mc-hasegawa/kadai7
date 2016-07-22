@@ -40,16 +40,17 @@ $file_line_count = 1;
 				{
 					if ($file_line_count < $file_line_num)
 					{
-						echo "<br><br>--------------------------------------<br>";
+						echo "<br>--------------------------------------<br>";
 					}
 					else
 					{
-						echo "<br><br>";
+						echo "<br>";
 					}
 				}
 				else
 				{
 					echo $buffer;
+					echo "<br>";
 				}
 				$file_line_count++;
 			}
